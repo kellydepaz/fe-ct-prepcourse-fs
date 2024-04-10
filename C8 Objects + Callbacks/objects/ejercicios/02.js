@@ -6,4 +6,17 @@ function actualizarValorPropiedad(objeto, propiedad, valor) {
    return objeto;
 }
 
+const mascota = {
+   nombre: 'canela',
+   edad: 1
+};
+
+const mascota2 = {
+   nombre: 'mertin',
+   edad: 2
+};
+
+console.log(actualizarValorPropiedad(mascota, 'alergia', '[chocolate, queso ]'))
+
+
 module.exports = actualizarValorPropiedad;

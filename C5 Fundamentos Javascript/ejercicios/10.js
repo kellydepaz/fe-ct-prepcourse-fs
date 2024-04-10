@@ -3,9 +3,9 @@ function esFechaValida(fecha) {
   // Comprueba si este corresponde a una fecha válida.
   // Si es así, retorna true, sino retorna false.
   // Tu código:
-  if(fecha instanceof Date) {
-    console.log
-  }
+  return !isNaN(Date.parse(fecha))
 }
+
+console.log(esFechaValida("1970-12-32"))
 
 module.exports = esFechaValida;

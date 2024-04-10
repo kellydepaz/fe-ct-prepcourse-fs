@@ -4,6 +4,16 @@ function agregarPropiedad(objeto, propiedad) {
   // Esta propiedad será igual al valor `null`.
   // Retornar el objeto.
   // Tu código:
+
+  objeto.null = propiedad;
+
+  return objeto
 }
+
+let persona = {
+}
+
+
+console.log(agregarPropiedad(persona, 'kelly'))
 
 module.exports = agregarPropiedad;

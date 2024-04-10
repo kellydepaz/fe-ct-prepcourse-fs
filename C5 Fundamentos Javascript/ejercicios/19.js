@@ -7,9 +7,9 @@ function esPositivo(num) {
   // Tu código:
 
   if(num > 0) {
-    return 'es positivo'
+    return 'Es positivo'
   } else if(num < 0) {
-    return 'es negativo'
+    return 'Es negativo'
   } else if (num === 0) {
     return false
   }

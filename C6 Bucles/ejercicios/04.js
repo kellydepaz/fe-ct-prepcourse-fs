@@ -6,7 +6,7 @@ function mayoriaDeEdad(edad) {
   while(edad >= 18) {
     return 'Allowed'
   }
-  return 'No Allowed'
+  return 'No allowed'
 
 }
 

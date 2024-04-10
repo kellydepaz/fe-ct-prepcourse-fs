@@ -7,11 +7,11 @@ function saludo(idioma) {
   // Tu código:
   switch (idioma) {
     case 'aleman': 
-      return 'Gutten Tag!'
+      return 'Guten Tag!'
     case 'mandarin':
       return 'Ni Hao!'
     case 'ingles':
-      return 'Hello'
+      return 'Hello!'
     default:
       return 'Hola!'
   }

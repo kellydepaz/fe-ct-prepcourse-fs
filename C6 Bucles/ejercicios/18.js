@@ -3,6 +3,11 @@ function productoEntreNúmeros(a, b) {
   // los números entre a y b (inclusive).
   // Tu código:
   
+
+  if (a < b) {
+    
+  }
+  
 }
 
 module.exports = productoEntreNúmeros;

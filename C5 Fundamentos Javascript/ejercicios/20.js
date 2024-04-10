@@ -6,9 +6,9 @@ function esVocal(letra) {
   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' ) {
     return 'Es vocal'
   } else if(letra.length > 1) {
-    return 'Dato incorrecto, tiene mas de un caracter'
+    return 'Dato incorrecto'
   } else if ((letra !== 'a' || letra !== 'e' || letra !== 'i' || letra !== 'o' || letra !== 'u' )) {
-    return 'Dato incorrecto, no es una vocal'
+    return 'Dato incorrecto'
   }
 }
 

@@ -6,6 +6,6 @@ function agregarSimboloExclamacion(str) {
   return str + '!'
 }
 
-console.log(agregarSimboloExclamacion('hellou world'))
+console.log(agregarSimboloExclamacion('hello world'))
 
 module.exports = agregarSimboloExclamacion;
